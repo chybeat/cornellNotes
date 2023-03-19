@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
 	<meta charset="UTF-8">
@@ -17,32 +17,66 @@
 	<meta name="subject" content="Project's Copyright">
 	<meta name="title" content="Inicio | CornellNotes">
 	<link rel="me" href="https://www.github.com/chybeat" type="text/html">
+
+	<!-- PLUGIINS -->
+
+	<!-- Estilos y funcionalidades del proyecto -->
+
+	<link rel="stylesheet" rel="stylesheet" media="all" type="text/css" href="./css/font/roboto.min.css" />
+	<link rel="stylesheet" rel="stylesheet" media="all" type="text/css" href="./css/cornellNotes.min.css" />
+
+	<script defer type="text/javascript" src="./js/cornellNotes.min.js"></script>
+
+	<!-- Pendientes
+		<meta name="msapplication - TileColor" content="#acd9b2">
+		<meta name="theme-color" content="#acd9b2">
+		<link rel="author" href="./humans.txt">
+		<link rel="license" href="./copyright.html">
+		<link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+		<link rel="manifest" href="./site.webmanifest">
+		<link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
+
+	-->
+	<!-- cambiar en meta desde JS (por tema de cada cuaderno de las notas):
+	<title>Inicio | CornellNotes</title>
+	<meta name="subject" content="Project's Copyright">
+	<meta name="description" content="Cornell notes">
+	<meta name="keywords" content="cornell, notes, apuntes">
+	<meta name="subject" content="Project's Copyright">
+	<meta name="title" content="Copyright | YardSale">
+	-->
 </head>
 
 <body>
+	<header>
+		<h1>Cornell Notes</h1>
+
+	</header>
+	<section id="welcome">
+		<div class="load">
+			<h2>Cargar/editar</h2>
+		</div>
+		<div class="new">
+			<h2>Nuevos apuntes</h2>
+		</div>
+	</section>
+	<section id="notes">
+		<div class="cues">
+			<h2>Indicios</h2>
+			<textarea name="cues" id="cues_text" cols="30" rows="10"></textarea>
+		</div>
+		<div class="notes">
+			<h2>Notas</h2>
+			<textarea name="notes" id="notes_text" cols="30" rows="10"></textarea>
+		</div>
+		<div class="summary">
+			<h2>Resumen</h2>
+			<textarea name="summary" id="suummary_text" cols="30" rows="10"></textarea>
+		</div>
+	</section>
+	<footer></footer>
 </body>
 
 </html>
-
-<!-- cambiar en meta:
-<title>Inicio | CornellNotes</title>
-<meta name="description" content="Cornell notes">
-<meta name="keywords" content="cornell, notes, apuntes">
-<meta name="subject" content="Project's Copyright">
-<meta name="title" content="Copyright | YardSale">
--->
-
-<head>
-	<meta name="msapplication - TileColor" content="#acd9b2">
-	<meta name="theme-color" content="#acd9b2">
-	<link rel="author" href="./humans.txt">
-	<link rel="license" href="./copyright.html">
-	<link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
-	<link rel="manifest" href="./site.webmanifest">
-	<link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
-	<link rel="stylsheet" href="./css/font/roboto.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-	<link rel="stylesheet" media="all" type="text/css" href="./css/cornellNotes.min.css">
-	<script defer="" type="text/javascript" src="./js/cornellNotes.min.js"></script>
-</head>
