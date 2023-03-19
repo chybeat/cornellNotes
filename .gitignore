@@ -1,1 +1,8 @@
+#Temporalmente se omitiran los iconos de icomoon hasta tener una version estable con todos los iconos
+css/font/icons-cornell-notes.eot
+#css/font/icons-cornell-notes.svg // se permite el SVG para tener la prevsualización
+css/font/icons-cornell-notes.ttf
+css/font/icons-cornell-notes.woff
+
+#El siguiente archivo se omite por tener la version minimizada en uso
 css/font/roboto.css
